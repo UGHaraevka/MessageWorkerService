@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageWorkerService", "MessageWorkerService\MessageWorkerService.csproj", "{013267E2-1268-4D3D-BAEA-2C55947E6642}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC6BE826-1717-41E1-BEF1-608B8F35FCDD}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageWorkerService.IntegrationTests", "MessageWorkerService.IntegrationTests\MessageWorkerService.IntegrationTests.csproj", "{B7D22796-39C1-42B1-B164-2DE5FB39A755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{013267E2-1268-4D3D-BAEA-2C55947E6642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013267E2-1268-4D3D-BAEA-2C55947E6642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013267E2-1268-4D3D-BAEA-2C55947E6642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013267E2-1268-4D3D-BAEA-2C55947E6642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D22796-39C1-42B1-B164-2DE5FB39A755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D22796-39C1-42B1-B164-2DE5FB39A755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D22796-39C1-42B1-B164-2DE5FB39A755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D22796-39C1-42B1-B164-2DE5FB39A755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

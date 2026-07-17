@@ -1,0 +1,7 @@
+﻿services:
+  messageworkerservice:
+    image: messageworkerservice
+    build:
+      context: .
+      dockerfile: MessageWorkerService/Dockerfile
+
